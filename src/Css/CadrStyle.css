@@ -1,0 +1,23 @@
+@keyframes borderSpin {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-borderSpin {
+  background-size: 400% 400%;
+  animation: borderSpin 6s linear infinite;
+}
+
+/* Gradient background inside the card */
+/* .animated-bg {
+  background: linear-gradient(45deg, #615329, #9bff2f, #661163);
+  background-size: 400% 400%;
+  animation: borderSpin 8s ease infinite;
+} */

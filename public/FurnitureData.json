@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Aloe Vera",
+    "category": "Medicinal",
+    "price": 120,
+    "dimension": "15cm x 20cm x 60cm",
+    "stock": true,
+    "description": "Healing plant for skin care.",
+    "image": "https://i.ibb.co/6cPV6MZM/c3d89e1ca5f0e615fda4cb5083da4683-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Snake Plant",
+    "category": "Indoor",
+    "price": 180,
+    "dimension": "30cm x 40cm x 75cm",
+    "stock": false,
+    "description": "Air-purifying upright leaves.",
+    "image": "https://i.ibb.co/nqTKYhLt/d4a648879cd220e2af6aa613b52e5446-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Peace Lily",
+    "category": "Flowering",
+    "price": 250,
+    "dimension": "25cm x 35cm x 50cm",
+    "stock": true,
+    "description": "Elegant white flowers.",
+    "image": "https://i.ibb.co/39H0SKWx/ddc58b5b054cd1bdb4ce29fe8906df8a-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Money Plant",
+    "category": "Decorative",
+    "price": 90,
+    "dimension": "20cm x 30cm x 45cm",
+    "stock": true,
+    "description": "Symbol of prosperity.",
+    "image": "https://i.ibb.co/Y4KqM7R6/1adca13025dec4788280d1e91deda6f9-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Bamboo Palm",
+    "category": "Air Purifier",
+    "price": 300,
+    "dimension": "60cm x 80cm x 120cm",
+    "stock": false,
+    "description": "Tropical air filtering plant.",
+    "image": "https://i.ibb.co/F4q2QKpM/836155df39f08c0c177fc64fcdaedc78-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Spider Plant",
+    "category": "Hanging",
+    "price": 150,
+    "dimension": "25cm x 25cm x 40cm",
+    "stock": true,
+    "description": "Fast-growing arching leaves.",
+    "image": "https://i.ibb.co/JY3pWZ8/b91cd7a677014a6eebdb1b6a9c94364d-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Tulsi",
+    "category": "Herbal",
+    "price": 60,
+    "dimension": "20cm x 20cm x 35cm",
+    "stock": true,
+    "description": "Sacred medicinal plant.",
+    "image": "https://i.ibb.co/Q747GZfJ/b937dffef9f85253ac86816a8c1d8364-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Cactus",
+    "category": "Succulent",
+    "price": 110,
+    "dimension": "10cm x 15cm x 25cm",
+    "stock": false,
+    "description": "Low-maintenance desert plant.",
+    "image": "https://i.ibb.co/XcpD5qs/f2caa96fcb6da924e8133171a9f5825b-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Orchid",
+    "category": "Flowering",
+    "price": 400,
+    "dimension": "35cm x 45cm x 70cm",
+    "stock": true,
+    "description": "Exotic vibrant flowers.",
+    "image": "https://i.ibb.co/B26bSh0d/248e06c72cdf71dd8e97f2623b11d95f-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Fern",
+    "category": "Shade",
+    "price": 130,
+    "dimension": "30cm x 40cm x 55cm",
+    "stock": true,
+    "description": "Lush green foliage.",
+    "image": "https://i.ibb.co/bM9g3zNW/d79ed81f775011fe5ff745bbbaa1f364-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 11,
+    "name": "ZZ Plant",
+    "category": "Indoor",
+    "price": 160,
+    "dimension": "35cm x 50cm x 80cm",
+    "stock": false,
+    "description": "Glossy leaves, low light tolerant.",
+    "image": "https://i.ibb.co/YTYjVKQp/5821d1b2c26aec6829e849a74aefd318-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Rubber Plant",
+    "category": "Indoor",
+    "price": 220,
+    "dimension": "40cm x 60cm x 90cm",
+    "stock": true,
+    "description": "Bold foliage, easy care.",
+    "image": "https://i.ibb.co/S25wTV9/7a5c35ee1a78ce16a54b2a7b178377ca-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Philodendron",
+    "category": "Tropical",
+    "price": 190,
+    "dimension": "30cm x 45cm x 65cm",
+    "stock": false,
+    "description": "Dwarf 30 Pcs Natural Philodendron Bonsai Seeds - 50 Pcs Seeds",
+    "image": "https://i.ibb.co/1t9Qc1FB/da408915db26aa2b3ae61a5c81d6fa35-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Fiddle Leaf Fig",
+    "category": "Indoor",
+    "price": 350,
+    "dimension": "60cm x 90cm x 140cm",
+    "stock": true,
+    "description": "【Limited Time Only】 Photography Prop Large Artificial Fiddle Leaves Fig Plastic Vibrant Tropical Banyan Branch Delicate Ficus Home Garden Decor",
+    "image": "https://i.ibb.co/zhvjwrMR/0ed741e9feca4ae2b994068d0bc01a8f-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Lavender",
+    "category": "Herbal",
+    "price": 140,
+    "dimension": "25cm x 30cm x 50cm",
+    "stock": true,
+    "description": "Aer Power Pocket Bathroom Freshener Lavender Bloom 10 gm - air freshener",
+    "image": "https://i.ibb.co/x8Fn0y8F/2426d1380afab680b594ac9cc3a89faf-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Rosemary",
+    "category": "Herbal",
+    "price": 100,
+    "dimension": "20cm x 25cm x 40cm",
+    "stock": false,
+    "description": "Rosemary Leaves - 50g Forest Moon Rosemary Leaves",
+    "image": "https://i.ibb.co/S25wTV9/7a5c35ee1a78ce16a54b2a7b178377ca-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Pudina",
+    "category": "Succulent",
+    "price": 170,
+    "dimension": "25cm x 30cm x 45cm",
+    "stock": true,
+    "description": "Thai Organic Mint / Pudina Seed 33+ pcs Seed - পুদিনা পাতা বীজ",
+    "image": "https://i.ibb.co/BVJ1NCsL/8d2985cdd1174c7a0f05ac5efa6bb50a-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Croton",
+    "category": "Colorful",
+    "price": 200,
+    "dimension": "30cm x 40cm x 60cm",
+    "stock": false,
+    "description": "Joyan dana ( Ajwain Carom Seeds )- 100 gm",
+    "image": "https://i.ibb.co/cMbvDrT/12dec98d0deb2481eca67173bfe2d831-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Areca Palm",
+    "category": "Air Purifier",
+    "price": 280,
+    "dimension": "70cm x 100cm x 160cm",
+    "stock": true,
+    "description": "Feathery tropical leaves.",
+    "image": "https://i.ibb.co/cc75KzTJ/S279aab2418294000a1361f73a44ee45e-M-jpg-400x400q75.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Mint",
+    "category": "Herbal",
+    "price": 50,
+    "dimension": "15cm x 20cm x 30cm",
+    "stock": true,
+    "description": "Fresh aroma, culinary use.",
+    "image": "https://i.ibb.co/tMn1HbWY/S97cdd41190c8418197d24ee2df5bc91by-jpg-400x400q75.jpg"
+  }
+]
