@@ -40,11 +40,7 @@ const Navbar = () => {
         </div>
 
         <Link>
-          <img
-            className="btn btn-ghost h-20 w-30"
-            src="https://i.ibb.co.com/ZzZG73xx/minimalist-logo-desi.png"
-            alt=""
-          />
+          <h1 className="btn btn-ghost font-bold text-2xl italic ">Home Decor</h1>
         </Link>
       </div>
       <div className="navbar-end">
