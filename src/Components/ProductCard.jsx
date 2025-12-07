@@ -1,8 +1,9 @@
 import React from "react";
 import "../Css/CadrStyle.css"; // custom animation styles
+import { Link } from "react-router";
 
 const ProductCard = ({product}) => {
-  const {image,name,description,price}=product
+  const {image,name,description,price,id}=product
   return (
     <div className="relative p-[5px] h-[400px]  rounded-xl bg-gradient-to-r from-cyan-500 via-pink-500 to-yellow-500 animate-borderSpin hover:scale-105 transform ease-in-out ">
       <div className=" h-full  rounded-xl text-center card bg-base-100  shadow-sm">
@@ -27,7 +28,8 @@ const ProductCard = ({product}) => {
             }$
           </h2>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
+            <Link to={`/product/${id}`} className="btn btn-primary">View 
+              Details</Link>
           </div>
         </div>
       </div>

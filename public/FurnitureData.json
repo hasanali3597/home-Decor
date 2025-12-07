@@ -6,8 +6,9 @@
     "price": 120,
     "dimension": "15cm x 20cm x 60cm",
     "stock": true,
-    "description": "FOOD A HOLIC Calming & Moisturizing Aloe Vera Purity 92% Soothing Gel 300ml",
-    "image": "https://i.ibb.co/6cPV6MZM/c3d89e1ca5f0e615fda4cb5083da4683-jpg-400x400q75.jpg"
+    "description": "Natural aloe vera soothing gel, hydrates skin, calming effect, purity 92%, medicinal plant, 300ml pack, daily skincare.",
+    "image": "https://i.ibb.co/6cPV6MZM/c3d89e1ca5f0e615fda4cb5083da4683-jpg-400x400q75.jpg",
+    "rating": 4.5
   },
   {
     "id": 2,
@@ -16,8 +17,9 @@
     "price": 180,
     "dimension": "30cm x 40cm x 75cm",
     "stock": false,
-    "description": "Snake plant, (sansevieria green small), (Without pot) Plant",
-    "image": "https://i.ibb.co/nqTKYhLt/d4a648879cd220e2af6aa613b52e5446-jpg-400x400q75.jpg"
+    "description": "Snake plant with upright leaves, low maintenance, air purifier, indoor decorative, grows without pot, perfect for small spaces.",
+    "image": "https://i.ibb.co/nqTKYhLt/d4a648879cd220e2af6aa613b52e5446-jpg-400x400q75.jpg",
+    "rating": 4.2
   },
   {
     "id": 3,
@@ -26,8 +28,9 @@
     "price": 250,
     "dimension": "25cm x 35cm x 50cm",
     "stock": true,
-    "description": "Peace Lily Live Plant without Tub",
-    "image": "https://i.ibb.co/39H0SKWx/ddc58b5b054cd1bdb4ce29fe8906df8a-jpg-400x400q75.jpg"
+    "description": "Peace Lily plant with white flowers, elegant indoor decoration, air purifier, grows easily, perfect for homes and offices.",
+    "image": "https://i.ibb.co/39H0SKWx/ddc58b5b054cd1bdb4ce29fe8906df8a-jpg-400x400q75.jpg",
+    "rating": 4.7
   },
   {
     "id": 4,
@@ -36,8 +39,9 @@
     "price": 90,
     "dimension": "20cm x 30cm x 45cm",
     "stock": true,
-    "description": "3 Pcs Plastic Plant Pots with Pallet/Trays, 5 Inchi White Flower Pots",
-    "image": "https://i.ibb.co/Y4KqM7R6/1adca13025dec4788280d1e91deda6f9-jpg-400x400q75.jpg"
+    "description": "Money plant with green leaves, decorative indoor plant, symbol of prosperity, grows in pots, easy care, perfect home decor.",
+    "image": "https://i.ibb.co/Y4KqM7R6/1adca13025dec4788280d1e91deda6f9-jpg-400x400q75.jpg",
+    "rating": 4.0
   },
   {
     "id": 5,
@@ -46,8 +50,9 @@
     "price": 300,
     "dimension": "60cm x 80cm x 120cm",
     "stock": false,
-    "description": "Tropical air filtering plant.",
-    "image": "https://i.ibb.co/F4q2QKpM/836155df39f08c0c177fc64fcdaedc78-jpg-400x400q75.jpg"
+    "description": "Tall bamboo palm with tropical leaves, natural air purifier, decorative indoor plant, requires space, adds greenery to interiors.",
+    "image": "https://i.ibb.co/F4q2QKpM/836155df39f08c0c177fc64fcdaedc78-jpg-400x400q75.jpg",
+    "rating": 4.3
   },
   {
     "id": 6,
@@ -56,8 +61,9 @@
     "price": 150,
     "dimension": "25cm x 25cm x 40cm",
     "stock": true,
-    "description": "Fast-growing arching leaves.",
-    "image": "https://i.ibb.co/JY3pWZ8/b91cd7a677014a6eebdb1b6a9c94364d-jpg-400x400q75.jpg"
+    "description": "Spider plant with arching leaves, fast-growing, suitable for hanging pots, decorative indoor greenery, easy care, natural air purifier.",
+    "image": "https://i.ibb.co/JY3pWZ8/b91cd7a677014a6eebdb1b6a9c94364d-jpg-400x400q75.jpg",
+    "rating": 4.1
   },
   {
     "id": 7,
@@ -66,8 +72,9 @@
     "price": 60,
     "dimension": "20cm x 20cm x 35cm",
     "stock": true,
-    "description": "Sacred medicinal plant.",
-    "image": "https://i.ibb.co/Q747GZfJ/b937dffef9f85253ac86816a8c1d8364-jpg-400x400q75.jpg"
+    "description": "Sacred Tulsi plant, herbal medicinal use, worshipped in households, aromatic leaves, easy to grow, traditional Indian home plant.",
+    "image": "https://i.ibb.co/Q747GZfJ/b937dffef9f85253ac86816a8c1d8364-jpg-400x400q75.jpg",
+    "rating": 4.8
   },
   {
     "id": 8,
@@ -76,8 +83,9 @@
     "price": 110,
     "dimension": "10cm x 15cm x 25cm",
     "stock": false,
-    "description": "Low-maintenance desert plant.",
-    "image": "https://i.ibb.co/XcpD5qs/f2caa96fcb6da924e8133171a9f5825b-jpg-400x400q75.jpg"
+    "description": "Low-maintenance cactus plant, desert succulent, thrives in dry conditions, decorative indoor plant, unique look, requires minimal watering.",
+    "image": "https://i.ibb.co/XcpD5qs/f2caa96fcb6da924e8133171a9f5825b-jpg-400x400q75.jpg",
+    "rating": 3.9
   },
   {
     "id": 9,
@@ -86,8 +94,9 @@
     "price": 400,
     "dimension": "35cm x 45cm x 70cm",
     "stock": true,
-    "description": "Exotic vibrant flowers.",
-    "image": "https://i.ibb.co/B26bSh0d/248e06c72cdf71dd8e97f2623b11d95f-jpg-400x400q75.jpg"
+    "description": "Exotic orchid plant with vibrant flowers, elegant indoor decoration, long-lasting blooms, perfect gift, adds beauty to interiors.",
+    "image": "https://i.ibb.co/B26bSh0d/248e06c72cdf71dd8e97f2623b11d95f-jpg-400x400q75.jpg",
+    "rating": 4.6
   },
   {
     "id": 10,
@@ -96,8 +105,9 @@
     "price": 130,
     "dimension": "30cm x 40cm x 55cm",
     "stock": true,
-    "description": "Lush green foliage.",
-    "image": "https://i.ibb.co/bM9g3zNW/d79ed81f775011fe5ff745bbbaa1f364-jpg-400x400q75.jpg"
+    "description": "Fern plant with lush green foliage, shade-loving, decorative indoor plant, easy care, adds freshness and greenery to rooms.",
+    "image": "https://i.ibb.co/bM9g3zNW/d79ed81f775011fe5ff745bbbaa1f364-jpg-400x400q75.jpg",
+    "rating": 4.2
   },
   {
     "id": 11,
@@ -106,8 +116,9 @@
     "price": 160,
     "dimension": "35cm x 50cm x 80cm",
     "stock": false,
-    "description": "Glossy leaves, low light tolerant.",
-    "image": "https://i.ibb.co/YTYjVKQp/5821d1b2c26aec6829e849a74aefd318-jpg-400x400q75.jpg"
+    "description": "ZZ plant with glossy leaves, low light tolerant, indoor decorative plant, easy maintenance, perfect for offices and homes.",
+    "image": "https://i.ibb.co/YTYjVKQp/5821d1b2c26aec6829e849a74aefd318-jpg-400x400q75.jpg",
+    "rating": 4.0
   },
   {
     "id": 12,
@@ -116,8 +127,9 @@
     "price": 220,
     "dimension": "40cm x 60cm x 90cm",
     "stock": true,
-    "description": " Rubber PlantArtificial lota br rubber tree plant for home decorations. flower, flowers, grass, hanging, wall, leaf, carpet, pot, cutter, light stand, indoor",
-    "image": "https://i.ibb.co/S25wTV9/7a5c35ee1a78ce16a54b2a7b178377ca-jpg-400x400q75.jpg"
+    "description": "Rubber plant with broad leaves, decorative indoor greenery, easy care, adds tropical vibe, popular choice for modern interiors.",
+    "image": "https://i.ibb.co/S25wTV9/7a5c35ee1a78ce16a54b2a7b178377ca-jpg-400x400q75.jpg",
+    "rating": 4.4
   },
   {
     "id": 13,
@@ -126,8 +138,9 @@
     "price": 190,
     "dimension": "30cm x 45cm x 65cm",
     "stock": false,
-    "description": "Dwarf 30 Pcs Natural Philodendron Bonsai Seeds - 50 Pcs Seeds",
-    "image": "https://i.ibb.co/1t9Qc1FB/da408915db26aa2b3ae61a5c81d6fa35-jpg-400x400q75.jpg"
+    "description": "Philodendron tropical plant, dwarf variety, decorative indoor greenery, easy to grow, adds freshness, perfect for tropical lovers.",
+    "image": "https://i.ibb.co/1t9Qc1FB/da408915db26aa2b3ae61a5c81d6fa35-jpg-400x400q75.jpg",
+    "rating": 3.8
   },
   {
     "id": 14,
@@ -136,67 +149,19 @@
     "price": 350,
     "dimension": "60cm x 90cm x 140cm",
     "stock": true,
-    "description": "【Limited Time Only】 Photography Prop Large Artificial Fiddle Leaves Fig Plastic Vibrant Tropical Banyan Branch Delicate Ficus Home Garden Decor",
-    "image": "https://i.ibb.co/zhvjwrMR/0ed741e9feca4ae2b994068d0bc01a8f-jpg-400x400q75.jpg"
+    "description": "Photography Prop Large Artificial Fiddle Leaves Fig Plastic Vibrant Tropical Banyan Branch",
+    "image": "https://i.ibb.co/zhvjwrMR/0ed741e9feca4ae2b994068d0bc01a8f-jpg-400x400q75.jpg",
+    "rating": 4.7
   },
-  {
+ {
     "id": 15,
     "name": "Lavender",
     "category": "Herbal",
     "price": 140,
     "dimension": "25cm x 30cm x 50cm",
     "stock": true,
-    "description": "Aer Power Pocket Bathroom Freshener Lavender Bloom 10 gm - air freshener",
-    "image": "https://i.ibb.co/x8Fn0y8F/2426d1380afab680b594ac9cc3a89faf-jpg-400x400q75.jpg"
-  },
-  {
-    "id": 16,
-    "name": "Rosemary",
-    "category": "Herbal",
-    "price": 100,
-    "dimension": "20cm x 25cm x 40cm",
-    "stock": false,
-    "description": "Rosemary Leaves - 50g Forest Moon Rosemary Leaves",
-    "image": "https://i.ibb.co/S25wTV9/7a5c35ee1a78ce16a54b2a7b178377ca-jpg-400x400q75.jpg"
-  },
-  {
-    "id": 17,
-    "name": "Pudina",
-    "category": "Succulent",
-    "price": 170,
-    "dimension": "25cm x 30cm x 45cm",
-    "stock": true,
-    "description": "Thai Organic Mint / Pudina Seed 33+ pcs Seed - পুদিনা পাতা বীজ",
-    "image": "https://i.ibb.co/BVJ1NCsL/8d2985cdd1174c7a0f05ac5efa6bb50a-jpg-400x400q75.jpg"
-  },
-  {
-    "id": 18,
-    "name": "Croton",
-    "category": "Colorful",
-    "price": 200,
-    "dimension": "30cm x 40cm x 60cm",
-    "stock": false,
-    "description": "Joyan dana ( Ajwain Carom Seeds )- 100 gm",
-    "image": "https://i.ibb.co/cMbvDrT/12dec98d0deb2481eca67173bfe2d831-jpg-400x400q75.jpg"
-  },
-  {
-    "id": 19,
-    "name": "Areca Palm",
-    "category": "Air Purifier",
-    "price": 280,
-    "dimension": "70cm x 100cm x 160cm",
-    "stock": true,
-    "description": "Feathery tropical leaves.",
-    "image": "https://i.ibb.co/cc75KzTJ/S279aab2418294000a1361f73a44ee45e-M-jpg-400x400q75.jpg"
-  },
-  {
-    "id": 20,
-    "name": "Mint",
-    "category": "Herbal",
-    "price": 50,
-    "dimension": "15cm x 20cm x 30cm",
-    "stock": true,
-    "description": "Fresh aroma, culinary use.",
-    "image": "https://i.ibb.co/tMn1HbWY/S97cdd41190c8418197d24ee2df5bc91by-jpg-400x400q75.jpg"
+    "description": "Aer Power Pocket Bathroom Freshener Lavender Bloom 10 gm",
+    "image": "https://i.ibb.co/x8Fn0y8F/2426d1380afab680b594ac9cc3a89faf-jpg-400x400q75.jpg",
+    "rating": 4.3
   }
 ]
