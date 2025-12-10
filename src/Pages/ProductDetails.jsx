@@ -6,7 +6,7 @@ import { FaStarHalfStroke } from "react-icons/fa6";
 
 const ProductDetails = () => {
   const { id } = useParams();
-  const { products, loading, error } = useProducts();
+  const { products, loading,} = useProducts();
   const product = products.find((p) => p.id === parseInt(id));
   console.log(product);
   // const { name } = product;
@@ -35,8 +35,8 @@ const ProductDetails = () => {
   };
 
   return (
-    <div className="relative w-full p-3  rounded-xl bg-gradient-to-r from-cyan-500 via-pink-500 to-yellow-500 animate-borderSpin hover:scale-105 transform ease-in-out ">
-      <div className="  p-3 rounded-xl text-center card bg-base-100  shadow-sm">
+    <div className="relative w-[60%] mx-auto p-3 mt-4 rounded-xl bg-gradient-to-r from-cyan-500 via-pink-500 to-yellow-500 animate-borderSpin hover:scale-105 transform ease-in-out ">
+      <div className=" rounded-xl text-center card bg-base-100  shadow-sm">
         <figure>
           <img
             className=" h-[200px] w-full overflow-hidden "

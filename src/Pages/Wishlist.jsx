@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const Wishlist = () => {
   const [wishlist, setWishlist] = useState([]);
+  const [sortOrder, setSortOrder] = useState("default");
 
   useEffect(() => {
     const savedList = JSON.parse(localStorage.getItem("wishlist"));
@@ -10,7 +11,6 @@ const Wishlist = () => {
     }
   }, []);
 
-  // Remove handler
   const handleRemove = (id) => {
     const updatedList = wishlist.filter((item) => item.id !== id);
     setWishlist(updatedList);
@@ -18,18 +18,46 @@ const Wishlist = () => {
     alert("প্রোডাক্টটি wishlist থেকে মুছে ফেলা হয়েছে ❌");
   };
 
+  // Sorting Logic
+  const sortedWishlist = [...wishlist].sort((a, b) => {
+    if (sortOrder === "price-asc") {
+      return a.price - b.price;
+    } else if (sortOrder === "price-desc") {
+      return b.price - a.price;
+    } else if (sortOrder === "name-asc") {
+      return a.name.localeCompare(b.name);
+    } else if (sortOrder === "name-desc") {
+      return b.name.localeCompare(a.name);
+    }
+    return 0;
+  });
+
   return (
-    <div>
-      <h2 className="text-2xl font-bold mb-4">
-        📝 My Wishlist : {wishlist.length}{" "}
-      </h2>
+    <div className="flex flex-col justify-center min-h-screen px-4">
+      <div className="flex justify-between items-center">
+        <h2 className="text-2xl font-bold mb-4">
+          📝 My Wishlist :{" "}
+          <span className="text-xl font-normal">( {wishlist.length} )</span>
+        </h2>
+        <select
+          value={sortOrder}
+          onChange={(e) => setSortOrder(e.target.value)}
+          className="select select-primary"
+        >
+          <option value="default">Default</option>
+          <option value="price-asc">Price: Low to High</option>
+          <option value="price-desc">Price: High to Low</option>
+          <option value="name-asc">Name: A → Z</option>
+          <option value="name-desc">Name: Z → A</option>
+        </select>
+      </div>
 
       {wishlist.length > 0 ? (
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {wishlist.map((product) => (
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
+          {sortedWishlist.map((product) => (
             <div
               key={product.id}
-              className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-white border border-gray-200 hover:shadow-xl transition-shadow duration-300"
+              className="max-w-sm mx-auto rounded-xl overflow-hidden shadow-lg bg-white border border-gray-200 hover:shadow-xl transition-shadow duration-300"
             >
               <img
                 className="w-full h-48 object-cover"
@@ -54,7 +82,9 @@ const Wishlist = () => {
                   </button>
                   <button
                     onClick={() => handleRemove(product.id)}
-                    className="flex-1 bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-lg text-sm font-medium transition"
+                    className="flex-1 bg-gradient-to-r from-red-500 via-pink-500 to-purple-500 
+             text-white py-2 px-4 rounded-lg text-sm font-medium 
+             animate-gradient-x transition-transform transform hover:scale-105"
                   >
                     Remove
                   </button>
