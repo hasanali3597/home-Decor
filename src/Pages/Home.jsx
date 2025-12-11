@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router";
 import ProductCard from "../Components/ProductCard";
 import useProducts from "../hooks/useProducts";
+import Spinner from "../Components/Spinner";
 
 const Home = () => {
   const { products, loading, error } = useProducts();
@@ -16,11 +17,15 @@ const Home = () => {
           See All Producta
         </Link>
       </div>
-      <div className="grid  text-center md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {feacturedProducta.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
-      </div>
+      {loading ? (
+        <Spinner />
+      ) : (
+        <div className="grid  text-center md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {feacturedProducta.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
+      )}
       <div className="flex justify-center items-center mt-6 ">
         <Link
           to="/products"

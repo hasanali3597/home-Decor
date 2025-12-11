@@ -3,6 +3,8 @@ import { useParams } from "react-router";
 import useProducts from "../hooks/useProducts";
 
 import { FaStarHalfStroke } from "react-icons/fa6";
+import { toast } from "react-toastify";
+import { updatedList } from "../utils/localStorage";
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -13,26 +15,22 @@ const ProductDetails = () => {
   if (loading) return <span className="loading loading-ring loading-lg"></span>;
   const { name, image, category, description, rating, price, dimension } =
     product || {};
-  const handleAddToWishList = () => {
-    const existingList = JSON.parse(localStorage.getItem("wishlist"));
-    let updatedList = [];
+//   const handleAddToWishList = () => {
+//   const existingList = JSON.parse(localStorage.getItem("wishlist")) || [];
+//   let updatedList = [...existingList];
 
-    if (existingList) {
-      const alreadyAdded = existingList.find((item) => item.id === product.id);
-      if (!alreadyAdded) {
-        updatedList = [...existingList, product];
-      } else {
-        updatedList = existingList;
-        alert("এই প্রোডাক্টটি আগেই wishlist এ আছে!");
-      }
-    } else {
-      updatedList.push(product);
-      alert("প্রোডাক্টটি প্রথমবার wishlist এ যোগ হলো ✅");
-    }
+//   const alreadyAdded = existingList.find((item) => item.id === product.id);
 
-    localStorage.setItem("wishlist", JSON.stringify(updatedList));
-    console.log(updatedList);
-  };
+//   if (!alreadyAdded) {
+//     updatedList.push(product);
+//     toast.success("প্রোডাক্টটি প্রথমবার wishlist এ যোগ হলো ✅");
+//   } else {
+//    toast("এই প্রোডাক্টটি আগেই wishlist এ আছে!");
+//   }
+
+//   localStorage.setItem("wishlist", JSON.stringify(updatedList));
+//   console.log(updatedList);
+// };
 
   return (
     <div className="relative w-[60%] mx-auto p-3 mt-4 rounded-xl bg-gradient-to-r from-cyan-500 via-pink-500 to-yellow-500 animate-borderSpin hover:scale-105 transform ease-in-out ">
@@ -56,7 +54,7 @@ const ProductDetails = () => {
               </h1>
               <h1>Dimension :{dimension} </h1>
             </div>
-            <button onClick={handleAddToWishList} className="btn btn-primary">
+            <button onClick={()=>updatedList(product)} className="btn btn-primary">
               Add To Wishlist
             </button>
           </div>
